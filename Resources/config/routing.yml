@@ -1,0 +1,5 @@
+studio_artlan_sngdemo:
+    resource: "@StudioArtlanSngDemoBundle/Controller"
+    type:     annotation
+#    prefix:   /sngdemo
+
