@@ -1,8 +1,8 @@
-sngdemo
+syngdemo
 ===
 
 Symfony Angular Bridge Demo Bundle
 
 Demo Bundle for Symfony Angular Bridge:
 
-https://github.com/studioartlan/sng
+https://github.com/studioartlan/syng

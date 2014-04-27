@@ -2,7 +2,7 @@
 <html lang="en" ng-app="{{ngAppConfig.name}}">
 <head>
   <meta charset="utf-8">
-  <title>Sng Demo</title>
+  <title>Syng Demo</title>
   <link rel="stylesheet" href="css/app.css"/>
 </head>
 <body>
@@ -13,20 +13,20 @@
 
   <div ng-view></div>
 
-  <div>Sng Demo app: v<span app-version></span></div>
+  <div>Syng Demo app: v<span app-version></span></div>
 
 {% javascripts
-	'@StudioArtlanSngDemoBundle/Resources/public/app/lib/angular.js'
-	'@StudioArtlanSngDemoBundle/Resources/public/app/lib/angular-route.js'
+	'@StudioArtlanSyngDemoBundle/Resources/public/app/lib/angular.js'
+	'@StudioArtlanSyngDemoBundle/Resources/public/app/lib/angular-route.js'
 %}
 <script type="text/javascript" src="{{ asset_url }}"></script>
 {% endjavascripts %}
 
 {% javascripts
-    '@StudioArtlanSngDemoBundle/Resources/public/app/js/*.js'
-    '@StudioArtlanSngDemoBundle/Resources/public/app/js/routes/*.js'
-    '@StudioArtlanSngDemoBundle/Resources/public/app/js/services/*.js'
-    '@StudioArtlanSngDemoBundle/Resources/public/app/js/directives/*.js'
+    '@StudioArtlanSyngDemoBundle/Resources/public/app/js/*.js'
+    '@StudioArtlanSyngDemoBundle/Resources/public/app/js/routes/*.js'
+    '@StudioArtlanSyngDemoBundle/Resources/public/app/js/services/*.js'
+    '@StudioArtlanSyngDemoBundle/Resources/public/app/js/directives/*.js'
 %}
 <script type="text/javascript" src="{{ asset_url }}"></script>
 {% endjavascripts %}

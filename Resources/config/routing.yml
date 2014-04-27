@@ -1,5 +1,5 @@
-studio_artlan_sngdemo:
-    resource: "@StudioArtlanSngDemoBundle/Controller"
+studio_artlan_syngdemo:
+    resource: "@StudioArtlanSyngDemoBundle/Controller"
     type:     annotation
-#    prefix:   /sngdemo
+#    prefix:   /syngdemo
 
